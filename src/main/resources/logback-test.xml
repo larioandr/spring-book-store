@@ -7,7 +7,7 @@
     </appender>
 
     <logger name="org.hibernate" level="WARN"><appender-ref ref="STDOUT" /></logger>
-<!--    <logger name="org.hibernate.SQL" level="DEBUG"><appender-ref ref="STDOUT" /></logger>-->
+    <logger name="org.hibernate.SQL" level="DEBUG"><appender-ref ref="STDOUT" /></logger>
     <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
